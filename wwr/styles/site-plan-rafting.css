@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans+Narrow&display=swap');
+
+:root{
+    --primary-color: #0055A5;
+    --secondary-color: #F13240;
+    --accent1-color: #7291AE;
+    --accent2-color: #F89DA3;
+
+    --heading-font: 'Josefins Sans', sans-serif;
+    --paragraph-font: 'PT Sans Narrow', sans-serif;
+
+    --nav-background-color: #7291AE;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: var(--primary-color);
+    --nav-hover-background-color: var(--accent2-color);
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 10px;
+    background-color: var(--accent2-color);
+}
+
+p{
+    padding: 5px;
+}
+
+nav{
+    background-color: var(--primary-color);
+    font-size: 1.2em;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 0.8em;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
