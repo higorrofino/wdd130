@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans+Narrow&display=swap");
+
+:root {
+  --primary-color: #0055a5;
+  --secondary-color: #f13240;
+  --accent1-color: #7291ae;
+  --accent2-color: #f89da3;
+
+  --heading-font: "Josefins Sans", sans-serif;
+  --paragraph-font: "PT Sans Narrow", sans-serif;
+
+  --nav-background-color: #1a729e;
+  --nav-link-color: #000000;
+  --nav-hover-link-color: var(--primary-color);
+  --nav-hover-background-color: var(--accent2-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1280px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  font-size: 50px;
+  background-color: rgb(246, 246, 246, 0.6);
+  text-align: center;
+  padding: 15px;
+}
+
+.hero article {
+  position: absolute;
+  top: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(114, 145, 174, 0.7);
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.hero article img {
+  width: 300px;
+  float: right;
+  margin-left: 30px;
+}
