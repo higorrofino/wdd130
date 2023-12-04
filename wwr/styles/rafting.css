@@ -143,6 +143,92 @@ nav a {
   width: 180px;
 }
 
+.contact {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+
+.h1-contact {
+  background-color: rgb(0, 84, 163, 0.8);
+  color: #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+.contact-us {
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+iframe {
+  width: 600px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  font-weight: 600;
+  justify-content: space-around;
+}
+
+.team img {
+  width: 200px;
+  height: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+  text-align: center;
+}
+
+form div {
+  margin: 5px;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}
+
 footer {
   text-align: right;
   display: grid;
